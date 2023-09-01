@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: black;
+}
+.container{
+    width: 1000px;
+    margin: 100px auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.square{
+    width: calc(100% / 10);
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1 / 1;
+    color: green;
+}
+.bg-yellow{
+    background-color: yellow;
+}
