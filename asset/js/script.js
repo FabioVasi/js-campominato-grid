@@ -50,9 +50,6 @@ for (let i = 0; i < maxSquare; i++) {
 
         console.log('ho cliccato sulla cella ' + i);
 
-
-
     })
     
 }
-// creo una funzione da poter richiamare a piacimento
