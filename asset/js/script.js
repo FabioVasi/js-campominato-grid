@@ -20,5 +20,16 @@ Le validazioni e i controlli possiamo farli anche in un secondo momento.
 
 const maxSquare = 100;
 
-const squareEl = document.querySelector('.square');
+const squareEl = document.querySelector('.row');
 
+for (let i = 0; i < maxSquare; i++) {
+    
+    const elementSquare = document.createElement('div');
+
+    elementSquare.className = 'square'
+
+    elementSquare.append(i + 1);
+    
+    squareEl.append(elementSquare)
+    
+}
