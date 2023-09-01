@@ -28,6 +28,9 @@ body{
     font-weight: bold;
     border-radius: 1rem;
 }
+.square:hover{
+    background-color: yellow;
+}
 .bg-skyblue{
     background-color: skyblue;
 }
