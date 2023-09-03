@@ -55,7 +55,13 @@ document.getElementById('produce').addEventListener('click', function() {
            console.log('ho cliccato sulla cella ' + i);
    
        })
-       
-   }
+
+    }
+
+})
+
+document.getElementById('reset').addEventListener('reset', function() {
+
+    squareEl.style.display = 'none'
 
 })
